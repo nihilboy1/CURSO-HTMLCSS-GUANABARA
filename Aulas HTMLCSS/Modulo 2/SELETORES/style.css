@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(159, 250, 220);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: blue;
+}
+#principal{
+    color: brown;
+}
+.subs {
+    color: coral;
+}
+
+.leus {
+    background-color: black;
+}
+
+h2 {
+    color:blueviolet
+}

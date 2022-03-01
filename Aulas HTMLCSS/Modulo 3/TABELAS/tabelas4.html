@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup / Agrupando colunas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: 1px solid black;
+            border-bottom: 0px;
+            padding: 5px;
+            font-size: medium;
+            font-weight: 600;
+        }
+
+        .c-nome {
+            background-color: red;
+        }
+        .c-grupo {
+            background-color: greenyellow;
+        }
+
+        #container {
+            overflow: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela base</h1>
+    <div id="container">
+        <table>
+            <colgroup>
+            <col class="c-nome">
+            <col class="c-grupo" span="2">
+            <col class="c-profissão">
+            </colgroup>
+            <caption>
+                Nome da tabela
+            </caption>
+            <tr>
+                <th scope="col">Nome</th> 
+                <th scope="col">Sexo</th> 
+                <th scope="col">Idade</th> 
+                <th scope="col">Profissão</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Idade</th>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Maria da Silva</td> <td>Fem</td> <td>26</td> <td>Médica</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
